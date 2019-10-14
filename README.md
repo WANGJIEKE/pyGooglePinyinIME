@@ -1,6 +1,6 @@
 # pyGooglePinyinIME
 
-A Python 3 wrapper of [Google Input Tools](https://www.google.com/inputtools/) api for Pinyin.
+A Python 3 wrapper of [Google Input Tools](https://www.google.com/inputtools/) API for Pinyin.
 
 ## Notice
 
