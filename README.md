@@ -15,13 +15,12 @@ python3 -m pip install requests
 ## Sample Usage
 
 ```python
-ime = GooglePinyinIME()
-
-ime.set_pinyin('nidazidaikongge')
-print(ime.get_potential_hanzi_list())
-
-# output: ['你打字带空格', '你', ...]
-
+>>> import googleIME as ime
+>>> words, matched_lens = ime.get_words('nidazidaikongge')
+>>> print(words)
+['你打字带空格', '你', '尼达', '尼', '拟', '泥', '腻', '逆', '妮', '倪', '妳']
+>>> print(matched_lens)
+[15, 2, 4, 2, 2, 2, 2, 2, 2, 2, 2]
 ```
 
-By some simple modification,it should support other languages that Google Input Tools support.
+By some simple modification, it should support other languages that Google Input Tools support.
